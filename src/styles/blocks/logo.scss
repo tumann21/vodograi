@@ -1,0 +1,15 @@
+.logo {
+  &__img {
+    height: 50px;
+    border-radius: 20%;
+  }
+
+  &__image {
+    height: 48px;
+    border-radius: 10%;
+
+    @include onDesktop {
+      height: 80px;
+    }
+  }
+}
